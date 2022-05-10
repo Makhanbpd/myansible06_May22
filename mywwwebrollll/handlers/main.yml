@@ -1,2 +1,7 @@
 ---
 # handlers file for mywwwebrollll
+- name: startwebserver
+  service:
+   name: apache2
+   state: restarted
+   
